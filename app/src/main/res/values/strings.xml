@@ -4,4 +4,6 @@
     <string name="intro_text2">Download and watch offline wherever you are</string>
     <string name="intro_button">Get In</string>
     <string name="login_text1">Log in</string>
+    <string name="signup_text1">Register</string>
+    <string name="signup_button">Register</string>
 </resources>
