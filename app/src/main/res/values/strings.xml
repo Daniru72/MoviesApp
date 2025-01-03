@@ -3,4 +3,5 @@
     <string name="intro_text1">Watch Videos in Virtual Reality</string>
     <string name="intro_text2">Download and watch offline wherever you are</string>
     <string name="intro_button">Get In</string>
+    <string name="login_text1">Log in</string>
 </resources>
