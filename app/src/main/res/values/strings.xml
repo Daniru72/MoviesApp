@@ -3,7 +3,11 @@
     <string name="intro_text1">Watch Videos in Virtual Reality</string>
     <string name="intro_text2">Download and watch offline wherever you are</string>
     <string name="intro_button">Get In</string>
-    <string name="login_text1">Log in</string>
+    <string name="login_text1">Login</string>
+    <string name="login_btn">Login</string>
     <string name="signup_text1">Register</string>
     <string name="signup_button">Register</string>
+    <string name="home_text1">What would you like to watch</string>
+    <string name="home_text2">New Movies</string>
+    <string name="home_text3">Upcomming Movies</string>
 </resources>

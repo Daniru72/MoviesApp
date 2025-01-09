@@ -25,6 +25,20 @@ public class LoginActivity extends AppCompatActivity {
             return insets;
         });
 
+
+//login button
+        Button button2 = findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(LoginActivity.this,MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+
+
+//go to signUp
         TextView gotoSignUp = findViewById(R.id.textView4);
         gotoSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
