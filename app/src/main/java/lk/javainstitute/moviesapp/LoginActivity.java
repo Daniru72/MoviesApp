@@ -3,6 +3,8 @@ package lk.javainstitute.moviesapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -31,6 +33,10 @@ public class LoginActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                Animation btnAnimation = AnimationUtils.loadAnimation(LoginActivity.this,R.anim.button_animation);
+                button2.startAnimation(btnAnimation);
+
                 Intent i = new Intent(LoginActivity.this,MainActivity.class);
                 startActivity(i);
             }

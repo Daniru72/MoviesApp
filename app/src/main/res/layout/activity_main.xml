@@ -172,7 +172,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView"
+                    android:id="@+id/imageView1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -224,12 +224,12 @@
         </com.google.android.material.bottomappbar.BottomAppBar>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/actionButton"
+            style="@style/Floating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:maxImageSize="36dp"
             app:layout_anchor="@id/app_bar"
-            style="@style/Floating"
-            />
+            app:maxImageSize="36dp" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
