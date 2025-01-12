@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -13,6 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import model.User;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -37,8 +40,29 @@ public class LoginActivity extends AppCompatActivity {
                 Animation btnAnimation = AnimationUtils.loadAnimation(LoginActivity.this,R.anim.button_animation);
                 button2.startAnimation(btnAnimation);
 
-                Intent i = new Intent(LoginActivity.this,MainActivity.class);
-                startActivity(i);
+
+                EditText editText1 = findViewById(R.id.editTextUsername);
+                EditText editText2 = findViewById(R.id.editTextPassword);
+
+                String username = editText1.getText().toString();
+                String password = editText2.getText().toString();
+
+                if(username.isEmpty()){
+
+                } else if(password.isEmpty()) {
+
+                }else{
+
+
+                    Intent i = new Intent(LoginActivity.this,MainActivity.class);
+                    startActivity(i);
+
+
+                }
+
+
+
+
             }
         });
 

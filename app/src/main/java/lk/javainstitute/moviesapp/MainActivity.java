@@ -1,5 +1,6 @@
 package lk.javainstitute.moviesapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -33,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
                 Animation btnAnimation = AnimationUtils.loadAnimation(MainActivity.this,R.anim.button_animation);
                 imageView1.startAnimation(btnAnimation);
+
+                Intent i = new Intent(MainActivity.this,DetailActivity.class);
+                startActivity(i);
 
             }
         });
