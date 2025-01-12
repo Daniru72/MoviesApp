@@ -48,7 +48,8 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
 
-                    app:shapeAppearanceOverlay="@style/roundedImageRounded" />
+                    app:shapeAppearanceOverlay="@style/roundedImageView"
+                    app:srcCompat="@color/pink" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
